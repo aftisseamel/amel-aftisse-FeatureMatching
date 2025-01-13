@@ -1,0 +1,12 @@
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\bin\Debug\net8.0\amel.aftisse.FeatureMatching.deps.json
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\bin\Debug\net8.0\amel.aftisse.FeatureMatching.dll
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\bin\Debug\net8.0\amel.aftisse.FeatureMatching.pdb
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\amel.aftisse.FeatureMatching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\amel.aftisse.FeatureMatching.AssemblyInfoInputs.cache
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\amel.aftisse.FeatureMatching.AssemblyInfo.cs
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\amel.aftisse.FeatureMatching.csproj.CoreCompileInputs.cache
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\amel.aftisse.FeatureMatching.dll
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\refint\amel.aftisse.FeatureMatching.dll
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\amel.aftisse.FeatureMatching.pdb
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\ref\amel.aftisse.FeatureMatching.dll
+C:\Users\asens\FeatureMatchingExam\amel.aftisse.FeatureMatching\obj\Debug\net8.0\amel.aftisse.FeatureMatching.csproj.AssemblyReference.cache
