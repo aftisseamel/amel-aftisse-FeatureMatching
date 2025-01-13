@@ -1,0 +1,41 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  id-token: write
+  contents: write
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Run Unit test
+        working-directory: ./amel.aftisse.FeatureMatching.Tests
+        run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=./coverage/opencover.xml
+      - run: dotnet publish ./amel.aftisse.FeatureMatching.WebApi/amel.aftisse.FeatureMatching.WebApi.csproj --self-contained true --output ./win-x64/featureMatching -c Release -r win-x64 /p:PublishSingleFile=true
+
+      - name: Upload WebApp Build Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Publish win-x64 featureMatching
+          path: ./win-x64/featureMatching
+  
+  
+
+
+
+      
